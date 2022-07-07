@@ -1,0 +1,32 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-areas:
+    "a h"
+    "a m"
+    "a f"
+    ;
+}
+
+header {
+   grid-area: h;
+   background-color: var(--heardeColor);
+   height: 68px;
+}
+
+main {
+    background-color: blue; 
+    grid-area: m;
+
+ }
+
+ aside {
+    grid-area: a;
+    display: block;
+ }
+
+ footer {
+    background-color: yellow;
+    grid-area: f;
+ }

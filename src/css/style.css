@@ -1,0 +1,46 @@
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 220px;
+    height: 68px;
+    background-image: var(--gradient);
+
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+a{
+    margin-top: 7px;
+    text-decoration: none;
+    margin-left: 24px;
+}
+ul li{
+    height: 33px;
+}
+
+.cabecalho{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-left: 36px;
+    color: var(--cabecTitulo);
+
+}
+.cabec1{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.cabec2{
+    font-size: 22px;
+    margin-top: 2px;
+}
+.cabec3{
+    font-size: 14px;
+}
